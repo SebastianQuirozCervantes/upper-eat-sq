@@ -11,7 +11,7 @@ const app = express();
 // Load env vars
 dotenv.config();
 const corsOptions = {
-    origin: 'http://localhost:3001', // Cambia a la URL de tu frontend
+    origin: 'https://upper-eat-sq-next.onrender.com', // Cambia a la URL de tu frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'], // Incluye el token en 'Authorization'
   };
